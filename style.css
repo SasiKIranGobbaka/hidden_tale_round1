@@ -1,0 +1,49 @@
+/* RESET */
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    color: rgb(0, 0, 0);
+}
+
+/* BACKGROUND IMAGE */
+body {
+    background-image: url("shivaji_maharaj.jpg");
+    background-size: 100%;          /* makes image smaller */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;       /* fallback background */
+}
+
+
+
+/* MAIN CONTENT BOX */
+.container {
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 12px;
+}
+
+/* TITLE */
+h1 {
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+    color: rgb(253, 145, 37);
+    background-color: black;
+    background-size: cover;
+    padding: 20px;
+}
+
+/* PARAGRAPH STYLE */
+p {
+    text-align: justify;
+    line-height: 1.9;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+html {
+    scroll-behavior: smooth;
+}
